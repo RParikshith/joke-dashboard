@@ -19,22 +19,6 @@ const Statistics = ({statistics,handleToggleStatistics})=>{
           </div>
     </div>
   )
-
-  return(
-    <div className="App">
-      <div className="joke--main-container">
-          <div className="joke-container">
-              Statistics Selected
-              <div>
-                <div className="button-container">
-                    <button className="button" onClick={()=>this.handleJokeFeedBack('not-funny')}>Not Funny </button>
-                    <button className="button" onClick={()=>this.handleJokeFeedBack('funny')}> Funny </button>
-                </div>
-              </div>
-          </div>
-      </div>
-    </div>
-  )
 }
 
 export default Statistics;
